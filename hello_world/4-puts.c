@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc "$CFILE" puts "Programming is like building a multilingual puzzle" -s
+gcc  puts ("Programming is like building a multilingual puzzle")
