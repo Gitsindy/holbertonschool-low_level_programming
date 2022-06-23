@@ -1,2 +1,3 @@
 #!/bin/bash
-puts ("Programming is like building a multilingual puzzle") -o
+puts cisfun -o
+""Programming is like building a multilingual puzzle"
