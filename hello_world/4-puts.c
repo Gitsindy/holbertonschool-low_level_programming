@@ -1,3 +1,3 @@
 #!/bin/bash
-puts $CFILE -o
+puts $CFILE -c
 ""Programming is like building a multilingual puzzle"
