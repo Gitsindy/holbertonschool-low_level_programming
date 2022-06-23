@@ -7,11 +7,11 @@
  */
 int main(int argc, char *argv[])
 {
-	printf ("size of a char: 1 byte%zd bytes\n", sizeof (char));
-	printf ("Size of an int: 4 byte %zd bytes\n", sizeof (int));
-	printf ("Size of a long int: 8 %zd bytes\n", sizeof (long));
-	printf ("Size of a long long int: 8 %zd bytes\n", sizeof (long long));
-	printf ("Size of a float: 4  %zd bytes\n", sizeof (float));
+	printf ("size of a char: 1 bytes", sizeof (s));
+	printf ("Size of an int: 4 bytes", sizeof (s));
+	printf ("Size of a long int: 8 bytes", sizeof (s));
+	printf ("Size of a long long int: 8 bytes", sizeof (s));
+	printf ("Size of a float: 4 bytes", sizeof (s));
 	return (0);
 }
 	 
