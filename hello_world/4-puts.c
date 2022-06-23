@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ * main - Entry point, use puts
+ *
+ * Return: 0
+ */
 int main() {
- char cisfun[50];
- puts("Programming is like building a multilingual puzzle");
- puts(cisfun);
+ puts("\"Programming is like building a multilingual puzzle");
  return 0;
 }
