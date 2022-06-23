@@ -1,5 +1,7 @@
 #!/bin/bash
+#include <stdlib.h>
 int main(){
-puts(char[50]"Programming is like building a multilingual puzzle");
-return o;
+ char cisfun[50] = "Programming is like building a multilingual puzzle";
+ puts(cisfun);
+ return o;
 }
