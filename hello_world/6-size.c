@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * *main - Entry point, use size 
+ * main - Entry point, use size 
  * *
  * *Return:0
  */
