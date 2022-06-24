@@ -9,10 +9,10 @@
 int main(void)
 {
 	int n;
-	srand(time(0))"%d\n";
+	srand(time(0))"\n";
 	n = rand() - RAND_MAX / 2;
-	printf(" is positive %d:%d\n" ,n, rand());
-	printf("is negative %d:%d\n" ,n, rand());
-	printf("is zero %d:%d\n" ,n, rand());
+	printf(" is positive%d:%d\n" ,n, rand());
+	printf("is negative%d:%d\n" ,n, rand());
+	printf("is zero%d:%d\n" ,n, rand());
 	return (0);
 }
