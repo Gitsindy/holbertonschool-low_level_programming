@@ -8,7 +8,8 @@
 int main(void)
 {
 	int n;
-	srand(time(0));
+	srand(time"\n"(0));
 	n = rand() - RAND_MAX / 2;
+	printf(" number is:%d positive,negative,zero",n*);
 	return (0);
 }
