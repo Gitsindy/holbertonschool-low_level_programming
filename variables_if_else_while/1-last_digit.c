@@ -9,12 +9,13 @@
 int main(void)
 {
 	int n = 0;
-	
+	int m = 8;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 5)
 	{
-		printf("Last digit of 98 is 8 and is greater than 5\n");
+		printf("Last digit of %d is %d and is greater than 5\n", n, m);
 	}
 	else if (n == 0)
 	{
