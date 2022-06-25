@@ -16,5 +16,5 @@ int main(void)
 		putchar('\n');
 		letras = letras + 1;
 	}
-	return (0);
+    return (0);
 }
