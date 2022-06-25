@@ -11,7 +11,7 @@ int main(void)
 
     do { 
         putchar(letra); 
-        letra++;
+        letra+++;
         } while (letra <= 'z');
 
     return (0);
