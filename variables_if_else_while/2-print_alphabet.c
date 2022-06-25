@@ -11,9 +11,9 @@ int main (void)
 
     do
     {
-        putchar("%c.\n",letra);
+        putchar("%c\n",letra);
         letra++;
-    } while (<='z');
+    } while ( letra<='z');
 
     return 0;
     
