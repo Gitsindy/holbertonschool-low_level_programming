@@ -9,9 +9,13 @@ int main(void)
 {
 	char letras = 65;
 
-	while (letras < 122) {
+	if (letras < 122)
+	{
 		putchar(letras);
-		letras = letras +1;
+		letras = letras + 1;
+	}
+	else {
+	    putchar(letras);
 	}
 	return (0);
 }
