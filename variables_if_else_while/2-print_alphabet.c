@@ -14,5 +14,5 @@ int main(void)
             letra++;
     } while (letra <= 'z');
 
-    return 0;
-}
+    return (0);
+    }
