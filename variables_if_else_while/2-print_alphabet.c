@@ -5,13 +5,13 @@
  * *
  * * Return: letras
  */
-int main (void)
+    int main (void)
 {
     char letra = 'a';
 
     do
     {
-        putchar("%c\n",letra);
+        putchar(letra);
         letra++;
     } while ( letra<='z');
 
