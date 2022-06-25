@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * *main -  print whether the number is positive or negative.
+ * *main -  print whether the number is bigger or minor.
  * *
- * * Return: positive, zero, negative
+ * * Return: 0
  */
 int main(void)
 {
