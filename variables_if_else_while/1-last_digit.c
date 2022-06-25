@@ -22,7 +22,7 @@ int main(void)
 	}
 	else
 	{
-		printf("Last digit of 980 is 0 and is 0\n");
+		printf("Last digit of 980 is 0\n");
 	}
 
 	return (0);
