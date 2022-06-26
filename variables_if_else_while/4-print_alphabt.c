@@ -17,7 +17,7 @@ int main(void)
 		}
 		if (letras == 113)
 		{
-			letras++;
+			letras ++;
 		}
 
 		putchar(letras);
