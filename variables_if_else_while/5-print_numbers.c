@@ -19,6 +19,5 @@ int main(void)
 		printf("%d", number);
 		number = number + 1;
 	}
-	printf('\n');
 	return (0);
 }
