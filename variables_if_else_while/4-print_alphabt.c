@@ -21,7 +21,7 @@ int main(void)
 		}
 
 		putchar(letras);
-		letras = letras + 1,'\n';
+		letras = letras + 1;
 	}
 	return (0);
 }
