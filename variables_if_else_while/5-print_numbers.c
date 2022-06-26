@@ -16,7 +16,7 @@ int main(void)
 			number++;
 		}
 
-		printf("\n %d", number);
+		printf("%d", number);
 		number = number + 1;
 	}
 	return (0);
