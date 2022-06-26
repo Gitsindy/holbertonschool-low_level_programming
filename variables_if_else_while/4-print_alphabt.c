@@ -9,7 +9,7 @@ int main(void)
 {
 	char letras = 97;
 
-	while (letras <= 122)
+	while (letras <= 122);
 	{
 		if (letras == 101)
 		{
@@ -17,7 +17,7 @@ int main(void)
 		}
 		if (letras == 113)
 		{
-			letras ++;
+			letras++;
 		}
 
 		putchar(letras);
