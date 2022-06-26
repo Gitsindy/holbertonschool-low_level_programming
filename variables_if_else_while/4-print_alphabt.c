@@ -11,7 +11,7 @@ int main(void)
 
 	while (letras <= 122)
 	{
-		if (letras == 101 && letras ==113)
+		if ((letras == 101) && (letras == 113))
 		{
 			letras++;
 		}
