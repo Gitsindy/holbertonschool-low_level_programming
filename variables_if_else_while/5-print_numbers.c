@@ -7,17 +7,17 @@
  */
 int main(void)
 {
-	int number;
-	int i;
+	int number = 0;
 
-	for (i = 0; i <= 10; i++)
+	while (number <= 10)
 	{
 		if (number == 10)
 		{
 			number++;
 		}
-		number = i + number;
+
+		printf("\n %d", number);
+		number = number + 1;
 	}
-	printf("\n%d\n", number);
 	return (0);
 }
