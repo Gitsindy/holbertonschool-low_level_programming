@@ -20,7 +20,7 @@ int main(void)
 			letras++;
 		}
 
-		putchar(letras,'\n');
+		putchar(letras);
 		letras = letras + 1;
 	}
 	return (0);
