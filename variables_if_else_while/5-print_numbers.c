@@ -7,16 +7,17 @@
  */
 int main(void)
 {
-	int number = 0;
+	int number;
+	int i;
 
-	while (number <= 9)
+	for (i = 0; i <= 10; i++)
 	{
 		if (number == 10)
 		{
 			number++;
 		}
-		putchar(number);
-		number = number + 1;
+		number = i + number;
 	}
+	printf("\n%d\n", number);
 	return (0);
 }
