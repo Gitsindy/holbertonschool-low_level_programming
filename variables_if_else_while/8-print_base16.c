@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char Hexadecimal = 'A';
+	char Hexadecimal = 0;
 
 	while (Hexadecimal < 'f')
 	{
