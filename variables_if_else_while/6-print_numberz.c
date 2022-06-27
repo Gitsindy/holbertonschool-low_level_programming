@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * *main - Write a program that prints the alphabet in lowercase .
  * *
@@ -8,7 +9,7 @@ int main(void)
 {
 	int num;
 
-	while (num <= 10)
+	while (num < 10)
 	{
 		if (num == 10)
 		{
