@@ -10,7 +10,7 @@ int main(void)
 	{
 		m = m * i;
 		putchar(s);
-		m++;
+		
 	}
 	return (0) ;
 }
