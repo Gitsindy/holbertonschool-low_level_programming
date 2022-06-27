@@ -11,10 +11,6 @@ int main(void)
 
 	while (num < 10)
 	{
-		if (num == 10)
-		{
-			num++;
-		}
 	  num= num + 1;	
 	  putchar(num);
 	}
