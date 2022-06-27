@@ -8,9 +8,9 @@
 int main(void)
 {
 	char i = 'a';
-    char Number = 'A';
+    char Number = 0;
 
-	while (Number < 'F')
+	while (Number < 10)
 	{
 		putchar(Number);
 		Number = Number + 1;
