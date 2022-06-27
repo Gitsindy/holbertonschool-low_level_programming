@@ -2,13 +2,14 @@
 #include <stdlib.h>
 int main(void)
 {
-	
-	int m =0;
+	int i;
+	int m =1;
+	int op;
 
-	while (m<10)
+	for (i=0;i<=9;i++)
 	{
-		m=m*1;
-		putchar(m);
+		putchar(op);
+		op = m *i ;
 		
 	}
 	return (0) ;
