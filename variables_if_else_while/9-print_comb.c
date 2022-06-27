@@ -9,7 +9,7 @@ int main(void)
 	for (i = 0; n < 10; i++)
 	{
 		m = m * i;
-		putchar(s);
+		putchar(m);
 		
 	}
 	return (0) ;
