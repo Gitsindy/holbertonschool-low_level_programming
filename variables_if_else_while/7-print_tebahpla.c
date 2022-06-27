@@ -12,7 +12,7 @@ int main(void)
 	while (letras >= 97)
 	{
 		putchar(letras);
-		letras = letras + 1;
+		letras = letras - 1;
 	}
 	return (0);
 }
