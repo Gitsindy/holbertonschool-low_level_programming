@@ -11,9 +11,9 @@ int main(void)
 
 	while (letras >= 97)
 	{
-		putchar (letras);
-		letras = letras  -  1;
+		putchar(letras);
+		letras = letras - 1;
 	}
+	putchar('\n');
 	return (0);
-	putchar ('\n');
 }
