@@ -7,8 +7,8 @@ int main(void)
 
 	for (i=0;i<=9;i++)
 	{
-		putchar(m);
 		m=m*i;
+		putchar(m);
 		
 	}
 	return (0) ;
