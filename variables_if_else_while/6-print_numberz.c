@@ -8,9 +8,9 @@ int main(void)
 {
 	int num;
 
-	for (num= 0; num < 10; num++)
+	while (num < 10)
 	{
-		if (num == 10 )
+		if (num == 10)
 		{
 			num++;
 		}
