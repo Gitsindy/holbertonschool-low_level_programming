@@ -7,12 +7,14 @@
  */
 int main(void)
 {
-	char Hexadecimal = 0;
+	
+    char Hexa = 'A';
 
-	while (Hexadecimal < 'f')
-	{
-		putchar(Hexadecimal);
-		Hexadecimal = Hexadecimal + 1;
+	for ( Hexa = 'A'; Hexa < 'f'; Hexa++)
+    {
+        putchar(Hexa);
+		Hexa = Hexa + 1;
+        
 	}
 	putchar('\n');
 	return (0);
