@@ -8,7 +8,7 @@
 int main(void)
 {
 	
-    int Hexa = 0;
+    char Hexa = 0;
 
 	for ( Hexa = 0; Hexa < 16; Hexa++)
     {
