@@ -13,7 +13,7 @@ int main(void)
 	for ( Hexa = 'A'; Hexa < 16; Hexa++)
     {
         putchar(Hexa);
-		Hexa = Hexa + 1;
+		
         
 	}
 	putchar('\n');
