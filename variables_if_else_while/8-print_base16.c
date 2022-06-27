@@ -10,7 +10,7 @@ int main(void)
 	
     char Hexa = 'A';
 
-	for ( Hexa = 'A'; Hexa < 16; Hexa++)
+	for ( Hexa = 'A'; Hexa < 'f'; Hexa++)
     {
         putchar(Hexa);
 		
