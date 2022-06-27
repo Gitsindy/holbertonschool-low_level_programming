@@ -23,5 +23,6 @@ int main(void)
 		putchar(letras);
 		letras = letras + 1;
 	}
+	putchar('\n');
 	return (0);
 }
