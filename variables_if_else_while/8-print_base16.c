@@ -7,19 +7,12 @@
  */
 int main(void)
 {
-	char i = 'a';
-    char Number = 0;
+	char Hexadecimal = 'A';
 
-	while (Number < 10)
+	while (Hexadecimal < 'f')
 	{
-		putchar(Number);
-		Number = Number + 1;
-        for (i = 'a'; i < 'f'; i++)
-        {
-            putchar(i);
-		    i = i + 1;
-        }
-        
+		putchar(Hexadecimal);
+		Hexadecimal = Hexadecimal + 1;
 	}
 	putchar('\n');
 	return (0);
