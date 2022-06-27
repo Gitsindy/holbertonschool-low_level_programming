@@ -3,13 +3,14 @@
 int main(void)
 {
 	int n = 0;
-	int s = 1;
+	int m = 1;
 	int i = 0;
 
-	for (i = 0; n <= 9; i++)
+	for (i = 0; n < 10; i++)
 	{
-		s = s * i;
+		m = m * i;
 		putchar(s);
+		m++;
 	}
 	return (0) ;
 }
