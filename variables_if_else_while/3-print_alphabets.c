@@ -7,12 +7,12 @@
  */
 int main(void)
 {
-	char letras = 122;
+	char letras;
 
-	while (letras < 65)
+	while ((letras >='a' && letras <='z')||(letras >='A'&& letras <='Z' ))
 	{
 		putchar(letras);
-		letras = letras - 1;
+		letras = letras + 1;
 	}
 	return (0);
 }
