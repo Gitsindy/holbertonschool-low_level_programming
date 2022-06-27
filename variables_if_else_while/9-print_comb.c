@@ -2,12 +2,12 @@
 #include <stdlib.h>
 int main(void)
 {
-	int i;
-	int m =1;
+	
+	int m =0;
 
-	for (i=0;i<=9;i++)
+	while (m<10)
 	{
-		m=m*i;
+		m=m*1;
 		putchar(m);
 		
 	}
