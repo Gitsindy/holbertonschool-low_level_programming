@@ -12,7 +12,7 @@ int main(void)
 	while (number < 10)
 	{ 
 
-		putchar(number);
+		putchar("%d" , number);
 		number = number + 1;
 	}
 	return (0);
