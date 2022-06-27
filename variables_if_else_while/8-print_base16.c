@@ -7,12 +7,13 @@
  */
 int main(void)
 {
-	char letras = 65;
+	char Hexadecimal = 'a';
 
-	while (letras < 122)
+	while (Hexadecimal < 'f')
 	{
-		putchar(letras);
-		letras = letras + 1;
+		putchar(Hexadecimal);
+		Hexadecimal = Hexadecimal + 1;
 	}
+	putchar('\n');
 	return (0);
 }
