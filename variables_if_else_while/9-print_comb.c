@@ -2,24 +2,20 @@
 int main(void)
 {
 	int i;
-	int m =1;
+	int m = 1;
 	int op;
 
-	for (i=48;i<=58;i++)
+	for (i = 48; i <= 58; i++)
 	{
 		putchar(op);
-		op = m * i;
-		if (op==47)
+		if (op == 47)
 		{
 			op++;
 		}
-		
+		op = m * i;
 		putchar(',');
 		putchar(32);
-		
-		
-		
 	}
 	putchar('\n');
-	return (0) ;
+	return (0);
 }
