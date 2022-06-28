@@ -8,7 +8,7 @@ int main(void)
 	{
 		if (i == 58)
 		{
-			i --;
+			i ='\0';
 		}
 		putchar(i);
 		putchar(',');
