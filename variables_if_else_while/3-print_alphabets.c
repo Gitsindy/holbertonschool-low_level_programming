@@ -9,12 +9,17 @@ int main(void)
 {
 	char min=97,M=65;
 
-	while ((min<122) && (M<90))
+	while (min<122)
 	{  
 		putchar(min);
 		min = min + 1;
-		putchar(M);
+		if (M<90)
+		{
+			putchar(M);
 	    M = M +1;
 	}
+		}
+		
+		
 	return (0);
 }
