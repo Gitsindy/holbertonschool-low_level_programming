@@ -8,6 +8,10 @@ int main(void)
 	{
 		putchar(i);
 		putchar(',');
+		if (57==',')
+		{
+			i++;
+		}
 		
 		putchar(32);
 	}
