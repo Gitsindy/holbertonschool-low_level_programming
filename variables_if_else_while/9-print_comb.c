@@ -5,11 +5,11 @@ int main(void)
 	int m =1;
 	int op;
 
-	for (i=48;i<=57;i++)
+	for (i=48;i<=58;i++)
 	{
 		putchar(op);
 		op = m * i;
-		putchar(',');
+		putchar(',' );
 		
 		
 	}
