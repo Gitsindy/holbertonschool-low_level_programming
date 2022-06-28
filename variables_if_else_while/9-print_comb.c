@@ -10,9 +10,9 @@ int main(void)
 		putchar(i);
 		putchar(',');
 		putchar(32);
-		if (i ==56 )
+		if (i ==57 )
 		{
-			i=('\0');
+			i++;
 		}
 	}
 	putchar('\n');
