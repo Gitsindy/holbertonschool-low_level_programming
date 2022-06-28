@@ -7,7 +7,7 @@ int main(void)
 
 	{ if (i==57)
 	{
-		i=-',';
+		i++;
 	}
 		putchar(i);
 		putchar(',');
