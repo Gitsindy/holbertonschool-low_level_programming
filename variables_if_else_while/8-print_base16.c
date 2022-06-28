@@ -10,6 +10,7 @@ int main(void)
 
 	char Hexa = 'a';
 	char Num = 48;
+
 	while (Num <= 57)
 	{
 		putchar(Num);
