@@ -8,11 +8,10 @@ int main(void)
 	{
 
 		putchar(i);
-		putchar(',');
 		putchar(32);
-		if (i == 57)
+		if (i == 56)
 		{
-			putchar(-',');
+			putchar(',');
 		}
 	}
 	putchar('\n');
