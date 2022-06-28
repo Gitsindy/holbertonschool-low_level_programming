@@ -19,7 +19,7 @@ int main(void)
 	{
 		putchar(myu);
 		myu = myu + 1;
-		putchar(32);
+		putchar('');
 	}
 	return (0);
 }
