@@ -19,6 +19,10 @@ int main(void)
 	{
 		putchar(myu);
 		myu = myu + 1;
+
+	
+			
+
 	}
 	putchar('\n');
 	return (0);

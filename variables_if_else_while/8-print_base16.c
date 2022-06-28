@@ -7,15 +7,20 @@
  */
 int main(void)
 {
-	
-    char Hexa = 'A';
 
-	for ( Hexa = 'A'; Hexa < ; Hexa++)
-    {
-        putchar(Hexa);
-		
-        
+	char Hexa = 'a';
+	char Num = 48;
+	while (Num <= 48)
+	{
+		putchar(Num);
+		Num = Num + 1;
 	}
+	while (Hexa <= 'f')
+	{
+		putchar(Hexa);
+		Hexa = Hexa + 1;
+	}
+
 	putchar('\n');
 	return (0);
 }
