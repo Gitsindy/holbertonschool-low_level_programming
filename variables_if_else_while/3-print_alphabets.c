@@ -15,7 +15,7 @@ int main(void)
 		putchar(min);
 		min = min + 1;
 	}
-	while (myu < 90)
+	while (myu < 91)
 	{
 		putchar(myu);
 		myu = myu + 1;
