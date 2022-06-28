@@ -7,11 +7,12 @@ int main(void)
 
 	{
 		putchar(i);
-		if (58==32)
+		putchar(',');
+		if (i==58)
 		{
 			i++;
 		}
-		putchar(',');
+		
 		putchar(32);
 	}
 	putchar('\n');
