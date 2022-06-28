@@ -9,8 +9,10 @@ int main(void)
 	{
 		putchar(op);
 		op = m * i;
+		putchar(',');
 		
 		
 	}
+	putchar('\n');
 	return (0) ;
 }
