@@ -12,7 +12,7 @@ int main(void)
 		putchar(32);
 		if (i ==56 )
 		{
-			putchar('\0');
+			i=('\0');
 		}
 	}
 	putchar('\n');
