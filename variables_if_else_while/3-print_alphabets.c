@@ -22,7 +22,7 @@ int main(void)
 		if (myu == 91)
 		{
 			putchar(' ');
-			
+
 		}
 	}
 	return (0);
