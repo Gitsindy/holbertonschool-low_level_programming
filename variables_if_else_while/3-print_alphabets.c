@@ -7,12 +7,14 @@
  */
 int main(void)
 {
-	char letras;
+	char min=97,M=65;
 
-	while ((letras>97 && letras<122) && (letras>65 && letras<90))
+	while ((min<122) && (M<90))
 	{  
-		putchar(letras);
-		letras = letras + 1;
+		putchar(min);
+		min = min + 1;
+		putchar(M);
+	    M = M +1;
 	}
 	return (0);
 }
