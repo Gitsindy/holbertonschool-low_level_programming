@@ -17,7 +17,8 @@ int main(void)
 	}
 	while (myu <= 90)
 	{
-		putchar(myu );
+		putchar(myu);
+		putchar(' ');
 		myu = myu + 1;
 	}
 	return (0);
