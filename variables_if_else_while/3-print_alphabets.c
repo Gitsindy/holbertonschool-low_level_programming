@@ -21,7 +21,7 @@ int main(void)
 		myu = myu + 1;
 		if (myu == 91)
 		{
-			putchar('  ');
+			putchar(' ');
 
 		}
 	}
