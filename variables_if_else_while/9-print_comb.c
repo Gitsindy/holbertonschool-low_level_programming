@@ -9,7 +9,9 @@ int main(void)
 	{
 		putchar(op);
 		op = m * i;
-		putchar(',' );
+		putchar(',');
+		putchar(32);
+		
 		
 		
 	}
