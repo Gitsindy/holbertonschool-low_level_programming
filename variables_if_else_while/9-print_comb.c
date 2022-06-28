@@ -3,12 +3,13 @@ int main(void)
 {
 	int i;
 
-	for (i = 48 ; i <= 57; i++)
+	for (i = 48; i <= 57; i++)
 
-	{ if (i==57)
 	{
-		i++;
-	}
+		if (i == 58)
+		{
+			i++;
+		}
 		putchar(i);
 		putchar(',');
 		putchar(32);
