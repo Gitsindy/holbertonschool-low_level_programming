@@ -7,13 +7,13 @@ int main(void)
 
 	for (i=48;i<=58;i++)
 	{
-		if (i==47)
-		{
-			i++;
-		}
-		
 		putchar(op);
 		op = m * i;
+		if (op==47)
+		{
+			op++;
+		}
+		
 		putchar(',');
 		putchar(32);
 		
