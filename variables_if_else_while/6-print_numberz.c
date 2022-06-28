@@ -8,8 +8,14 @@
 int main(void)
 {
 	int num;
+
 	for (num = 48; num <= 58; num++)
 	{
+		if (num ==47)
+		{
+			num++;
+		}
+		
 		putchar(num);
 	}
 	putchar('\n');
