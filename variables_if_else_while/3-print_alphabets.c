@@ -15,10 +15,11 @@ int main(void)
 		putchar(min);
 		min = min + 1;
 	}
-	while (myu < 90)
+	while (myu <= 90)
 	{
 		putchar(myu);
 		myu = myu + 1;
 	}
+	putchar('\n')
 	return (0);
 }
