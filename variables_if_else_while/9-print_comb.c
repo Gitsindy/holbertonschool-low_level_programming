@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * *main -  combinations of single-digit numbers.
+ * *
+ * * Return: 0
+ */
 int main(void)
 {
 	int i;
