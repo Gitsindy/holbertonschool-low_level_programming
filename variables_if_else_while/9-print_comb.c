@@ -10,10 +10,6 @@ int main(void)
 		putchar(i);
 		putchar(',');
 		putchar(32);
-		if (i ==58)
-		{
-			i=-44;
-		}
 	}
 	putchar('\n');
 	return (0);
