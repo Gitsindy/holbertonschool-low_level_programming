@@ -19,11 +19,11 @@ int main(void)
 	{
 		putchar(myu);
 		myu = myu + 1;
-		if (myu == 91)
-		{
-			putchar(' ');
 
-		}
+	
+			
+
 	}
+	putchar(' ');
 	return (0);
 }
