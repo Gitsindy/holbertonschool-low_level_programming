@@ -5,10 +5,11 @@ int main(void)
 	int m =1;
 	int op;
 
-	for (i=0;i<=9;i++)
+	for (i=48;i<=57;i++)
 	{
 		putchar(op);
-		op = m *i ;
+		op = m * i;
+		
 		
 	}
 	return (0) ;
