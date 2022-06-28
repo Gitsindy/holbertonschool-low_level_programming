@@ -7,7 +7,7 @@ int main(void)
 
 	{
 		putchar(i);
-		if (i == 47)
+		if (i == 58)
 		{
 			i++;
 		}
