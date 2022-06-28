@@ -6,10 +6,7 @@ int main(void)
 	for (i = 48; i <= 57; i++)
 
 	{
-		if (i == 58)
-		{
-			i ='\0';
-		}
+		
 		putchar(i);
 		putchar(',');
 		putchar(32);
