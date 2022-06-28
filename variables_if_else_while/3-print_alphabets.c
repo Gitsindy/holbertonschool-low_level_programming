@@ -7,10 +7,10 @@
  */
 int main(void)
 {
-	char letras = 65;
+	char letras;
 
-	while (letras < 122)
-	{
+	while ((letras>97 && letras<122) && (letras>65 && letras<90))
+	{  
 		putchar(letras);
 		letras = letras + 1;
 	}
